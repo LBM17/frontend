@@ -71,7 +71,7 @@ Para interactuar con GitHub de forma segura y sin necesidad de ingresar tu contr
 La idea es que cada uno trabaje en una rama de trabajo, para no hacer cambios sobre el proyecto principal. Cada rama será una tarea del proyecto. Una vez realicéis cambios, podéis subir vuestra rama a GitHub. Cuando uno de nosotros termine una tarea, debemos ir a GitHub y abrir un Pull Request para fusionar su rama con la principal. Es importante que lo revisemos los demás antes de aceptar el Pull Request. 
 
 ### Crear rama de trabajo
-1. Asegúrate de estar en la rama principal y actualizada `git checkout main` y `git pull origin main`
+1. Asegúrate de estar en la rama principal y actualizada `git checkout master` y `git pull origin master`
 2. Crea una rama para trabajar en la tarea `git checkout -b feature/mi-nueva-tarea`
 
 ### Realizar cambios y hacer commit
@@ -83,20 +83,20 @@ La idea es que cada uno trabaje en una rama de trabajo, para no hacer cambios so
 ### Crear un Pull Request o PR
 1. Ve al repositorio en GitHub
 2. En la página del repositorio, haz clic "Compare & pull request"
-3. Selecciona la rama main (o master) como detino y tu rama de trabajo como origen
+3. Selecciona la rama master (o master) como detino y tu rama de trabajo como origen
 4. Escribe una descripción de los cambios que realizaste y haz clic en "Create Pull Request"
 
 ### Revisión y Fusión del PR 
 1. Se puede revisar el Pull Request
-2. Si todo está correcto, puedes fusionar el PR en la rama principal (main o master)
+2. Si todo está correcto, puedes fusionar el PR en la rama principal master
 3. Si hay conflictos, sigue las instrucciones de GItHub para resolverlos
 4. Después de resolver cualquier conflicto haz un nuevo commit y sube los cambios
 
 ### Actuzalizar tu Rama Local con cambios de la Rama Principal 
-1. Cambiar a la rama principal `git checkout main`
-2. Actualizar la rama principal `git pull origin main`
+1. Cambiar a la rama principal `git checkout master`
+2. Actualizar la rama principal `git pull origin master`
 3. Volver a tu rama de trabajo `git checkout feature/mi-nueva-tarea`
-4. Fusionar los cambios de la rama principal `git merge main`
+4. Fusionar los cambios de la rama principal `git merge master`
 
 # Buenas prácticas
 1. Realiza commits pequeños y frecuentes
