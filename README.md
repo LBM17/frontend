@@ -1,7 +1,5 @@
 # Chat en vivo
 
-##Prueba de Rama de trabajo, Commit y Pull Request
-
 ## Tecnologías a usar
 - **Frontend**: React.js
 - **Backend**: Node.js & Socket.IO para mensajes en tiempo real
@@ -61,7 +59,7 @@ Para interactuar con GitHub de forma segura y sin necesidad de ingresar tu contr
 4. `cat ~/.ssh/id_rsa.pub` Copia la clave que te da
 5. Agrega la clave SSH a tu cuenta de GitHub (en el buscador de la máquina):
 6. Ve a GitHub > Settings > SSH and GPG keys > New SSH key, pega la clave pública y guarda.
-7. Probad desde ubuntu el siguiente comando: `git -T git@github.com` Debe dar un mensaje de bienvenida. 
+7. Probad desde ubuntu el siguiente comando: `ssh -T git@github.com` Debe dar un mensaje de bienvenida. 
 
 # Clonar repositorio y configurar el entorno local 
 1. `git clone git@github.com:LBM17/frontend.git`
